@@ -5,10 +5,10 @@ import {Provider} from 'react-redux';
 import './index.css';
 import App from './App';
 import rootReducer from './modules'
-import loggerMiddleware from './lib/loggerMiddleware';
 
-const store=createStore(rootReducer,applyMiddleware(loggerMiddleware));
+const store=createStore(rootReducer)
 
+//Provider 로 리액트 프로젝트에 리덕스 적용
 ReactDOM.render(
 <Provider store={store}>
 <App />

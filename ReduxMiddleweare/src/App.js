@@ -1,12 +1,11 @@
 import React from 'react';
-import CounterContainer from './containers/CounterContainers';
-
+import CounterCotainer from "./container/CounterContainer";
 
 function App() {
 
   return(
     <div>
-      <CounterContainer/>
+      <CounterCotainer/>
     </div>
 
   )
