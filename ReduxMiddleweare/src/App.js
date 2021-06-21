@@ -1,11 +1,12 @@
 import React from 'react';
-import CounterCotainer from "./container/CounterContainer";
+// import CounterCotainer from "./container/CounterContainer";
+import ThunkContainer from "./container/ThunkContainer";
 
 function App() {
 
   return(
     <div>
-      <CounterCotainer/>
+      <ThunkContainer/>
     </div>
 
   )
