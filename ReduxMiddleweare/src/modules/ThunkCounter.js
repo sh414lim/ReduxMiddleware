@@ -1,5 +1,8 @@
 import {createAction ,handleActions} from "redux-actions";
 
+
+//redux-thunk 는 액션 생성 함수에서 일반 액션 객체를 반환하는 대신에 함수를 반환 합니다
+//increaseAsync와 decreaseAsync 함수를 만들어 카운터 값을 비동기적으로 변경
 const INCREASE='counter/INCREASE';
 const DECREASE='counter/DECREASE';
 
